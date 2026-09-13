@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+
+<body>
+
+  <form action="" method="">
+    <p>* required fields</p>
+    <fieldset>
+      <legend>Topping</legend>
+      <label><input type="radio" name="topping" value="Margherita"> Margherita</label> <br>
+      <label><input type="radio" name="topping" value="Four Seasons"> Four Seasons</label> <br>
+      <label><input type="radio" name="topping" value="Meat Feast"> Meat Feast</label> <br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Size</legend>
+      <label><input type="radio" name="size" value="Small"> Small</label> <br>
+      <label><input type="radio" name="size" value="Medium"> Medium</label> <br>
+      <label><input type="radio" name="size" value="Large"> Large</label> <br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Extras</legend>
+      <label><input type="checkbox" name="extras[]" value="Mushrooms"> Mushrooms</label> <br>
+      <label><input type="checkbox" name="extras[]" value="Green Pepper"> Green Pepper</label> <br>
+      <label><input type="checkbox" name="extras[]" value="Anchovies"> Anchovies</label> <br>
+      <label><input type="checkbox" name="extras[]" value="Extra Cheese"> Extra Cheese</label> <br>
+    </fieldset>
+    <br>
+    <div>
+      <label for="delivery_time">preferred delivery time</label> <br>
+      <input type="time" id="delivery_time" name="delivery_time">
+    </div>
+    <br>
+    <div>
+      <label for="instruction">Delivery instruction</label> <br>
+      <textarea id="instruction" name="instruction" rows="4"></textarea>
+    </div>
+    <br>
+    <button>Submit Order</button>
+  </form>
+
+</body>
+
+</html>

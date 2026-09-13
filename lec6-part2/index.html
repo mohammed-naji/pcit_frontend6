@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+
+<body>
+
+  <form method="get" action="">
+    <div>
+      <label for="name">Name</label> <br>
+      <input type="text" id="name" name="name">
+    </div>
+    <br>
+    <div>
+      <label>Gender</label> <br>
+      <input id="male" type="radio" value="Male" name="gender"> <label for="male">Male</label> <br>
+      <label><input type="radio" name="gender" value="Female"> Female</label>
+    </div>
+    <br>
+    <div>
+      <label for="education">Education</label> <br>
+      <select id="education" name="education">
+        <option value="" disabled selected>Select</option>
+        <option value="1">Diploma</option>
+        <option value="2">Bachelor</option>
+        <option value="3">Master</option>
+        <option value="4">pHD</option>
+        <!-- <optgroup label="مساجد شارع المنصورة">
+          <option>المعتصم بالله</option>
+          <option>فتحي الشقاقي</option>
+          <option>الصحابة</option>
+          <option>احمد ياسين</option>
+          <option>النور</option>
+        </optgroup>
+
+        <optgroup label="مساجد شارع المنطار">
+          <option>سعد بن ابي وقاص</option>
+          <option>ذي النورين</option>
+          <option>انس بن مالك</option>
+        </optgroup> -->
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="bio">Bio</label> <br>
+      <textarea rows="5"></textarea>
+    </div>
+    <button>Send</button>
+  </form>
+
+</body>
+
+</html>
