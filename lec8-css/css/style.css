@@ -1,0 +1,52 @@
+/* .box { */
+/* background-color: blue; */
+/* background-color: rgb(20, 180, 210); */
+/* background-color: rgb(20, 180, 210); */
+/* background-color: rgba(70, 81, 99, 1); */
+/* background-color: #eee; */
+/* height: 300px; */
+/* min-height: 100px;
+  max-height: 200px; */
+/* width: 200px; */
+/* min-width: 200px;
+  max-width: 400px; */
+/* } */
+
+body {
+  background-image: url(../images/seamless-pattern-authentic-arabian-illustration-style_151170-679.avif);
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.box {
+  height: 400px;
+  text-align: center;
+  background-image: url(../images/PHARMACEUTICALS-page-header.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, .6);
+  height: 400px;
+}
+
+.box p {
+  color: #f00;
+  font-size: 20px;
+}
+
+.users .item a {
+  color: #d74;
+}
+
+
+/* 
+.title {
+  background-color: rgb(5, 111, 111);
+  color: #fff;
+}
+
+.info {
+  background-color: #7c07a0;
+} */
