@@ -1,0 +1,36 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+
+body {
+  font-family: "Syne Tactile", system-ui;
+} */
+
+@font-face {
+  font-family: 'thmanyah-Regular';
+  src: url(../fonts/thmanyahsans-Regular.otf);
+}
+
+@font-face {
+  font-family: 'thmanyah-Light';
+  src: url(../fonts/thmanyahsans-Light.otf);
+}
+
+@font-face {
+  font-family: 'thmanyah-Bold';
+  src: url(../fonts/thmanyahsans-Bold.otf);
+}
+
+.bold {
+  font-family: 'thmanyah-Bold';
+}
+
+.regular {
+  font-family: 'thmanyah-Regular';
+}
+
+.light {
+  font-family: 'thmanyah-Light';
+}
+
+body {
+  font-family: 'thmanyah-Regular';
+}
