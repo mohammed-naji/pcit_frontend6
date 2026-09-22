@@ -33,4 +33,38 @@ body {
 
 body {
   font-family: 'thmanyah-Regular';
+  margin: 0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.box1 {
+  background-color: #547;
+  /* margin: 20px; */
+  /* margin: 20px 40px; */
+  /* margin: 20px 40px 60px; */
+  /* margin: 20px 40px 60px 80px; */
+  /* margin-{left, right, bottom, top}: 20px; */
+  margin-bottom: 20px;
+  border: 3px solid #ff76ff;
+  border: 3px dotted #ff76ff;
+  border: 3px dashed #ff76ff;
+}
+
+.box2 {
+  background-color: #a20;
+}
+
+.container {
+  background-color: rgb(250, 186, 179);
+  width: 1119px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
 }
