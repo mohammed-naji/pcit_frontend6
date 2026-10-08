@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#text {
+  background-color: rgb(237, 202, 199);
+  padding: 20px;
+  display: none;
+}
