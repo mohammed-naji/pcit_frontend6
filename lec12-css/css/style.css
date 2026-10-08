@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 4000px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.chat {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(to right, rgb(130, 106, 178), #542);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.chat:hover {
+  transform: scale(1.1) rotate(360deg);
+}
+
+header {
+  background-color: #eee;
+  padding: 20px 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space {
+  height: 800px;
+}
+
+.products {
+  background-color: #facbcb;
+  padding: 80px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.products .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.products ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 40px;
+  position: sticky;
+  top: 58px;
+  background-color: #facbcb;
+}
+
+.products ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  background-color: #222;
+  display: inline-block;
+}
+
+.products .item h3 {
+  letter-spacing: -1px;
+}
+
+.products .item {
+  position: relative;
+}
+
+.products .item span {
+  background-color: #222;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
