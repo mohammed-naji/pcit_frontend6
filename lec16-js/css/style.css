@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  background-color: #980606;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* transition: all 0.3s ease; */
+}
+
+.name {
+  width: 400px;
+  padding: 10px;
+  display: block;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.name:focus {
+  box-shadow: 0 0 5px #eac3c3;
+}
