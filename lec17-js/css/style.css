@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.content {
+  width: 70%;
+  margin: 50px auto 0;
+}
+
+.content form {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 0 auto;
+}
+
+.content form input,
+.content form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.content form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.content table thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.content table th,
+.content table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
