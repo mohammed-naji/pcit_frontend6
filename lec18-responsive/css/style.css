@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.our-team {
+  padding: 70px 0;
+}
+
+.our-team h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.our-team .wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.our-team .wrapper img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.team-member {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-member .social {
+  position: absolute;
+  top: 100px;
+  left: -40px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  transition: all .3s ease;
+}
+
+.team-member:hover .social {
+  left: 0;
+}
+
+.team-member .social a {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+.team-member .social a:hover {
+  opacity: .7;
+}
+
+.team-member .social a.fb {
+  background-color: #3b5998;
+}
+
+.team-member .social a.li {
+  background-color: #0077B5;
+}
+
+.team-member .social a.x {
+  background-color: #000;
+}
+
+.team-member .social a.ig {
+  background-color: #c32aa3;
+}
+
+/* Mobile Media */
+@media (max-width: 800px) {
+
+  /* body {
+    background-color: lightblue;
+  } */
+  .our-team .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .our-team h2 {
+    font-size: 20px;
+  }
+
+}
+
+/* Tablet Media */
+@media (min-width: 801px) and (max-width: 1200px) {
+
+  /* body {
+    background-color: lightgreen;
+  } */
+  .our-team .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .our-team h2 {
+    font-size: 26px;
+  }
+}
+
+/* Desktop Media */
+@media (min-width: 1201px) {
+  /* body {
+    background-color: lightcoral;
+  } */
+}
