@@ -1,0 +1,16 @@
+{
+  "name": "tailwindstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./css/input.css -o ./css/style.css --watch",
+    "build": "npx @tailwindcss/cli -i ./css/input.css -o ./css/style.css --minify"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
